@@ -15,7 +15,7 @@ class ReusableCard extends StatelessWidget {
     return ReusablePadding(
       child: Container(
         decoration: const BoxDecoration(
-          color: AppColors.caribbeanGreen,
+          color: Colors.cyanAccent,
           borderRadius: BorderRadius.all(Radius.circular(8)),
         ),
         padding: const EdgeInsets.all(16),
