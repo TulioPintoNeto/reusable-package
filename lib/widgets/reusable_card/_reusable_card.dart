@@ -1,21 +1,19 @@
-import 'package:flutter/material.dart';
-import 'package:reusable_package/app/app_colors.dart';
-import 'package:reusable_package/widgets/ReusablePadding.dart';
+part of 'package:reusable_package/widgets/widgets.dart';
 
-class ReusableCard extends StatelessWidget {
+class _ReusableCard extends StatelessWidget {
   final Widget child;
 
-  const ReusableCard({
+  const _ReusableCard({
     required this.child,
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ReusablePadding(
+    return _ReusablePadding(
       child: Container(
         decoration: const BoxDecoration(
-          color: Colors.cyanAccent,
+          color: AppColors.caribbeanGreen,
           borderRadius: BorderRadius.all(Radius.circular(8)),
         ),
         padding: const EdgeInsets.all(16),

@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+part of 'package:reusable_package/widgets/widgets.dart';
 
-class ReusablePadding extends StatelessWidget {
+class _ReusablePadding extends StatelessWidget {
   final Widget child;
 
-  const ReusablePadding({
+  const _ReusablePadding({
     required this.child,
     Key? key,
   }) : super(key: key);
