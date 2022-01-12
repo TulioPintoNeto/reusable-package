@@ -1,9 +1,9 @@
 part of 'package:reusable_package/widgets/widgets.dart';
 
-class _ReusableCard extends StatelessWidget {
+class ReusableCard extends StatelessWidget {
   final Widget child;
 
-  const _ReusableCard({
+  const ReusableCard({
     required this.child,
     Key? key,
   }) : super(key: key);
