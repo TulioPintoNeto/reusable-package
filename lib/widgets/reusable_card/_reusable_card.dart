@@ -18,7 +18,12 @@ class _ReusableCard extends StatelessWidget {
         ),
         padding: const EdgeInsets.all(16),
         width: double.infinity,
-        child: child,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            child,
+          ],
+        ),
       ),
     );
   }
