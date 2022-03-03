@@ -25,4 +25,4 @@ My first two challenges were:
 
 Trying to solve this was quite easy, first, I split the public classes in two: ```ReusableCard``` and ```_ReusableCard```. I put Then in separated files, and connected each other by the ```part/part of``` resources in a common file (called widgets.dart). With this, the developer that tries to follow the implementation of ```ReusableClass``` will only see a class that extends a private class ```_ReusableCard``` (which can't be followed).
 
-With this case, I also can put my own private classes using the same logic, but without creating a public class for it, and using the private class directly in the Reusable Package.
+In this case, I can also put my own private classes using the same logic, but without creating a public class, and using the private class directly in the Reusable Package.
