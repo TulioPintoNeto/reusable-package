@@ -23,6 +23,6 @@ My first two challenges were:
 - I want to have some classes that will be used only by my package (not supposed to be used by outside projects);
 - I also want to encapsulate the classes, so developers can't open the class (by following its implementation) and start to change it for free (because they think that is a project class and not the package class);
 
-Trying to solve this was quite easy, first, I split the public classes in two: ```ReusableCard``` and ```_ReusableCard```. Then, I put the then in separated files, and connected each other by the ```part/part of``` resources in a common archive (called widgets.dart). With this, the user that try to follow the implementation of ```ReusableClass``` will only see a class that extends a private class ```_ReusableCard``` (which can't be followed).
+Trying to solve this was quite easy, first, I split the public classes in two: ```ReusableCard``` and ```_ReusableCard```. I put Then in separated files, and connected each other by the ```part/part of``` resources in a common file (called widgets.dart). With this, the developer that tries to follow the implementation of ```ReusableClass``` will only see a class that extends a private class ```_ReusableCard``` (which can't be followed).
 
 With this case, I also can put my own private classes using the same logic, but without creating a public class for it, and using the private class directly in the Reusable Package.
