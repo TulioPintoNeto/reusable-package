@@ -10,9 +10,9 @@
 
 ## About the content
 
-When I was trying to do the [Flutter Clean App](https://github.com/TulioPintoNeto/Flutter-Clean-Architecture), a demand appeared from my work to have an already made project be reusable. We were finishing a big project in one of our clients and a new project was intended to be constructed from "zero". Well, the main problem is that this new project will be using some parts of the first one.
+When I was trying to do the [Flutter Clean App](https://github.com/TulioPintoNeto/Flutter-Clean-Architecture), a demand appeared from my work to make a ready project reusable. We were finishing a big project for one of our clients and a new project was planned to start from "zero". Well, the main problem is that this new project would use some parts of the first one.
 
-So, my original idea is to build a package that is reusable, and, of course, two new projects to use this package, to see how things are going to be done.
+So, my original idea was to build a package that is reusable, and, of course, a new project (which is the [Reusable Project](https://github.com/TulioPintoNeto/reusable-package)) to use this package, to see how things are going to be done.
 
 ## What I'm dealing with
 
